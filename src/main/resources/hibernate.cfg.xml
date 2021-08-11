@@ -6,8 +6,8 @@
     <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/ormtest</property>
-        <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.connection.password">!QAZ2wsx</property>
+        <property name="hibernate.connection.username">username</property>
+        <property name="hibernate.connection.password">pwd</property>
         <property name="hibernate.connection.pool_size">30</property>
         <property name="hibernate.jdbc.batch_size">30</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
